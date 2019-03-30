@@ -34,4 +34,9 @@
     <string name="Resources">Resources</string>
     <string name="Feedback">Feedback</string>
 
+    <string name="name">Name</string>
+    <string name="year">Year</string>
+    <string name="sec">Section</string>
+    <string name="Phone">Phone</string>
+
 </resources>
