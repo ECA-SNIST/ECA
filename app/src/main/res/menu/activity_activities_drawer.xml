@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/activities_nav"
+            android:icon="@drawable/edit_style"
+            android:title="@string/activities" />
+        <item
+            android:id="@+id/gallery_nav"
+            android:icon="@drawable/edit_style"
+            android:title="@string/gallery" />
+        <item
+            android:id="@+id/achieve_nav"
+            android:icon="@drawable/edit_style"
+            android:title="@string/achieve" />
+        <item
+            android:id="@+id/resource_nav"
+            android:icon="@drawable/edit_style"
+            android:title="@string/Resources" />
+        <item
+            android:id="@+id/feed_nav"
+            android:icon="@drawable/edit_style"
+            android:title="@string/Feedback" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

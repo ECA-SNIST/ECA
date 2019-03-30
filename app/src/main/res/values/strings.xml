@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ECA</string>
+
+    <string name="emerge">Emerging</string>
+    <string name="compute">Computing</string>
+    <string name="arena">Arena</string>
+
+    <string name="title_activity_activities">Activities</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_signout">Sign out</string>
+
+    <string name="Login">Login</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="forgotpass">Forgot Password</string>
+    <string name="SignUp">Sign Up</string>
+
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+
+    <string name="register">Register</string>
+    <string name="Forgot">Forgot Password?</string>
+    <string name="info">We just need your registered Email id to send you password reset instructions</string>
+    <string name="reset_pass">Reset Password</string>
+    <string name="back">Go Back</string>
+
+    <string name="activities">Activities</string>
+    <string name="gallery">Gallery</string>
+    <string name="achieve">Achievements</string>
+    <string name="Resources">Resources</string>
+    <string name="Feedback">Feedback</string>
+
+</resources>
