@@ -24,7 +24,8 @@
             android:textAllCaps="true"
             android:textStyle="bold"
             android:paddingLeft="50dp"
-            android:paddingRight="50dp"/>
+            android:paddingRight="50dp"
+            android:visibility="gone"/>
         <TextView
             android:id="@+id/computing"
             android:layout_width="wrap_content"
@@ -37,7 +38,8 @@
             android:textStyle="bold"
             android:layout_below="@+id/emerge"
             android:paddingLeft="50dp"
-            android:paddingRight="50dp"/>
+            android:paddingRight="50dp"
+            android:visibility="gone"/>
         <TextView
             android:id="@+id/arena"
             android:layout_width="wrap_content"
@@ -50,7 +52,8 @@
             android:textStyle="bold"
             android:layout_below="@+id/computing"
             android:paddingLeft="50dp"
-            android:paddingRight="50dp"/>
+            android:paddingRight="50dp"
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/splash_logo"
@@ -60,7 +63,7 @@
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/arena"
             android:layout_marginTop="100dp"
-            />
+            android:visibility="gone"/>
 
 
     </RelativeLayout>

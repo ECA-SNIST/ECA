@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView e,c,a;
     ImageView logo;
-    //Animation animation;
+    Animation animation;
     Handler h;
 
 
@@ -29,19 +29,32 @@ public class MainActivity extends AppCompatActivity {
         a = findViewById(R.id.arena);
         logo = findViewById(R.id.splash_logo);
 
-//        animation = AnimationUtils.loadAnimation(MainActivity.this,R.anim.anima);
-//
         h = new Handler();
-//        h.postDelayed(r1,1000);
+
+        animation = AnimationUtils.loadAnimation(MainActivity.this,R.anim.anima);
+
+        e.setVisibility(View.VISIBLE);
+        e.startAnimation(animation);
+
+        c.setVisibility(View.VISIBLE);
+        c.startAnimation(animation);
+
+        a.setVisibility(View.VISIBLE);
+        a.startAnimation(animation);
+
+        logo.setVisibility(View.VISIBLE);
+        logo.startAnimation(animation);
 
         h.postDelayed(new Runnable() {
             @Override
             public void run() {
 
                 startActivity(new Intent(MainActivity.this,Login.class));
+                overridePendingTransition(R.anim.anima,R.anim.fade);
+                finish();
 
             }
-        },2000);
+        },3000);
 
     }
 }

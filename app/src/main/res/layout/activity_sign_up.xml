@@ -66,7 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:background="@drawable/edit_style"
-                android:inputType="textPassword"
+                android:inputType="textPersonName"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:textSize="15sp"
@@ -92,7 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:background="@drawable/edit_style"
-                android:inputType="textPassword"
+                android:inputType="number"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:textSize="15sp"
@@ -118,7 +118,33 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:background="@drawable/edit_style"
-                android:inputType="textPassword"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/Phone"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"/>
+
+            <EditText
+                android:id="@+id/phone_signup"
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/edit_style"
+                android:inputType="phone"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:textSize="15sp"
@@ -135,7 +161,8 @@
                 android:textSize="15sp"
                 android:textColor="#ffffff"
                 android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"/>
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"/>
 
             <EditText
                 android:id="@+id/email_signup"
